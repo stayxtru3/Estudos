@@ -11,7 +11,7 @@ void bubble_sort(int vet[], int max) {
       flag = 0;
       for (i = 0; i < (max - 1); i++) 
       {
-      /* Verfica se o vetor esta¡ em ordem, no caso ele coloca em ordem crescente, para decrescente trocar '>' por '<' */
+      /* Verfica se o vetor esta em ordem, no caso ele coloca em ordem crescente, para decrescente trocar '>' por '<' */
          if (vet[i] > vet[i+1]) {
          /* Caso nao esteja, ordena */
           aux = vet[i];
