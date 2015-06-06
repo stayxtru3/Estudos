@@ -37,7 +37,7 @@ int main(){
     system ("color A");
     //system ("color /? |more");
      
-    printf("1- Bubble Sort.\n2- ...\n3- ...\nChoose a option.\n");
+    printf("1- Bubble Sort.\n2- Selection Sort\n3- Insertion Sort\nChoose a option.\n");
     scanf("%d", &options); /* Variavel de seleção do case */
     
     switch(options){
